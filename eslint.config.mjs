@@ -9,6 +9,7 @@ import unicorn from 'eslint-plugin-unicorn';
 import globals from 'globals';
 import * as tseslint from 'typescript-eslint';
 
+
 export default tseslint.config(
     {
         ignores: [
